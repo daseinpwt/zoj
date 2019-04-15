@@ -9,7 +9,6 @@ using namespace std;
 #include "../../util/common.h"
 
 /* below is the main program */
-
 int main() {
     std::ios::sync_with_stdio(false);
 
