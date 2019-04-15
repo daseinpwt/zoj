@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ "$#" -ne 1 ]; then
+    echo "Illegal number of parameters"
+    exit 1
+fi
+
+mkdir src/$1
+cp cpp.tpl src/$1/$1.cpp
+sed "s/{PN}/$1/g" Makefile.tpl > src/$1/Makefile
+cd src/$1
