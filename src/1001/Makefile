@@ -8,3 +8,6 @@ dist: 1001.cpp
 run:
 	g++ 1001.cpp -o 1001.out
 	./1001.out
+
+solution:
+	pandoc solution.md -o solution.pdf

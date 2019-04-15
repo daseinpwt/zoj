@@ -8,3 +8,6 @@ dist: {PN}.cpp
 run:
 	g++ {PN}.cpp -o {PN}.out
 	./{PN}.out
+
+solution:
+	pandoc solution.md -o solution.pdf
