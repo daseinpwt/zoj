@@ -8,7 +8,7 @@ What would be really convenient is:
 
 Inspired by [Using a C preprocessor as an HTML authoring tool](http://jkorpela.fi/html/cpre.html), this idea is implemented by taking advantage of the gcc preprocessor.
 
-To see the detail of the trick, check `cpp.tpl` and `dist` target in `Makefile.tpl`. (The tool `awk` is used in Makefile instead of `sed` because MacOS and Linux use different versions of `sed`.)
+To see the detail of the trick, check `cpp.tpl` and the `dist` target in `Makefile.tpl`. (The tool `awk` is used in Makefile instead of `sed` because MacOS and Linux use different versions of `sed`.)
 
 ## Create the folder for a new problem
 1. In root, `. create {Problem Number}` (you will enter the created folder automatically)
