@@ -6,7 +6,7 @@ What would be really convenient is:
 1. We can write our own utility functions in separate header files and use `#include` to compile, run and test the code locally.
 2. When we want to submit the code, the included header files will be automatically inline-replaced.
 
-Inspired by ![Using a C preprocessor as an HTML authoring tool](http://jkorpela.fi/html/cpre.html), this idea is implemented by taking advantage of the gcc preprocessor.
+Inspired by [Using a C preprocessor as an HTML authoring tool](http://jkorpela.fi/html/cpre.html), this idea is implemented by taking advantage of the gcc preprocessor.
 
 To see the detail of the trick, check `cpp.tpl` and `dist` target in `Makefile.tpl`. (The tool `awk` is used in Makefile instead of `sed` because MacOS and Linux use different versions of `sed`.)
 
