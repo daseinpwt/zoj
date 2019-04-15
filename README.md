@@ -15,7 +15,7 @@ By using `pandoc`, we can write text in markdown and latex. You can check [Easy 
 
 When we run `create`, a file `solution.md` is automatically generated in the problem folder and you can use `make solution` to generate a corresponding pdf file.
 
-## Create the folder for a new problem
+## Creating the folder for a new problem
 1. In root, `. create {Problem Number}` (you will enter the created folder automatically)
 2. In the created folder, add your own header files (if any) and solution code to `{Problem Number}.cpp`
 3. `make run`. The code (`{Problem Number}.cpp`) will be compiled and executed
