@@ -6,7 +6,7 @@ dist: {PN}.cpp
 	rm _*
 
 run:
-	g++ {PN}.cpp -o {PN}.out
+	g++ -std=c++11 {PN}.cpp -o {PN}.out
 	./{PN}.out
 
 solution:
