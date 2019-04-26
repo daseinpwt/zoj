@@ -1,4 +1,7 @@
 # daseinpwt's solutions for ZOJ
+## C++11
+C++11 features are used in some places. It is always safe to compile the programs with '-std=c++11' flag.
+
 ## Using own header files
 Sometime we might want to have some utility data structures and functions in separate header files, to keep the code well organised and easy to maintain. However, ZOJ (actually, almost all the OJs) only supports single C/C++ source file. That means you can not use own header files and you need to copy-paste all the utility functions every time you code for a new problem.
 
