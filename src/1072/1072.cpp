@@ -70,7 +70,7 @@ void execute(
 
 void run(char* memory) {
     addr_t PC = 0;
-    data_t A, B ;
+    data_t A, B;
     addr_t addr;
     data_t data;
     data_t inst_code;
