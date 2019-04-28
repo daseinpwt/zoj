@@ -8,3 +8,13 @@
   for (int i = 0; i < (N); i++) \
     for (int j = 0; j < (M); j++) \
       a[i][j] = x
+
+template <class T>
+int ds_max(T a, T b) {
+  return a > b ? a : b;
+}
+
+template <class T>
+int ds_min(T a, T b) {
+  return a < b ? a : b;
+}
