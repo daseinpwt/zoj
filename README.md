@@ -2,9 +2,6 @@
 ## Welcome to ZOJ
 ZOJ is an online judge system maintained by Zhejiang University ACM/ICPC Team. It allows people to solve algorithm problems online.
 
-## C++11
-C++11 features are used in some places. It is always safe to compile the programs with '-std=c++11' flag.
-
 ## Using own header files
 Sometime we might want to have some utility data structures and functions in separate header files, to keep the code well organised and easy to maintain. However, ZOJ (actually, almost all the OJs) only supports single C/C++ source file. That means you can not use own header files and you need to copy-paste all the utility functions every time you code for a new problem.
 
@@ -27,3 +24,6 @@ When we run `create`, a file `solution.md` is automatically generated in the pro
 3. `make run`. The code (`{Problem Number}.cpp`) will be compiled and executed
 4. `make dist`. A file `{Problem Number}_dist.cpp` will be generated. You can use that file for submission
 5. After AC, you might want to write down your solution. You can do it in `solution.md` and use both markdown and latex grammars. Run `make solution` to generate a corresponding pdf file
+
+## C++11
+C++11 features are used in some places. It is always safe to compile the programs with '-std=c++11' flag.
