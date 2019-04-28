@@ -1,4 +1,7 @@
 # daseinpwt's solutions for ZOJ
+## Welcome to ZOJ
+ZOJ is an online judge system maintained by Zhejiang University ACM/ICPC Team. It allows people to solve algorithm problems online.
+
 ## C++11
 C++11 features are used in some places. It is always safe to compile the programs with '-std=c++11' flag.
 
