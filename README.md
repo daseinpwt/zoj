@@ -1,5 +1,5 @@
-# daseinpwt's solutions for ZOJ
-## Welcome to ZOJ
+# Dasein's solutions for ZOJ
+## About ZOJ
 ZOJ is an online judge system maintained by Zhejiang University ACM/ICPC Team. It allows people to solve algorithm problems online.
 
 ## daseinpwt's solutions and the solution framework
