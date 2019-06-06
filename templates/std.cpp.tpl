@@ -1,3 +1,3 @@
 /**
- *  Paste the standard solution code in this file.
+ *  Paste the standard solution code into this file.
  */

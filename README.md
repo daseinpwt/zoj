@@ -24,11 +24,12 @@ By using `pandoc`, we can write text in markdown and latex. You can check [Easy 
 When we run `create`, a file `solution.md` is automatically generated in the problem folder and you can use `make solution` to generate a corresponding pdf file.
 
 ### Creating a folder for new problem
-1. In root, `. create {Problem Number}`
+1. In root directory, `./create {Problem Number}`
 2. In the created folder, add your own header files (if any) and solution code to `{Problem Number}.cpp`
 3. `make run`. The code (`{Problem Number}.cpp`) will be compiled and executed
-4. `make dist`. A file `{Problem Number}_dist.cpp` will be generated. You can use that file for submission
-5. After AC, you might want to write down your solution. You can do it in `solution.md` and use both markdown and latex grammars. Run `make solution` to generate a corresponding pdf file
+4. If you want to compare the program with some standard solution (the AC code), you need to copy-paste the standard solution into `std.cpp` and write code for generating test data in `make_data.py`. After that, you can run `make check` to start the automated checking. When a input which yields different outputs is found, the checking will be terminated and you can find the corresponding input and outputs in the folder `check`
+5. `make dist`. A file `{Problem Number}_dist.cpp` will be generated. You can use that file for submission
+6. After AC, you might want to write down your solution. You can do it in `solution.md` and use both markdown and latex grammars. Run `make solution` to generate a corresponding pdf file
 
 ### C++11
 C++11 features are used in some places. It is always safe to compile the programs with '-std=c++11' flag.
