@@ -2,6 +2,9 @@ BUILD_DIR = build
 
 .PHONY: dist run check solution clean
 
+1029.out: $(BUILD_DIR)
+	g++ -std=c++11 -I../../include -o $(BUILD_DIR)/1029.out 1029.cpp
+
 dist: $(BUILD_DIR)
 	@awk '1;/END:SYSLIB/{exit}' 1029.cpp > $(BUILD_DIR)/_syslib.cpp
 	@awk 'f;/END:SYSLIB/{f=1}' 1029.cpp > $(BUILD_DIR)/_stripped.cpp
@@ -11,9 +14,6 @@ dist: $(BUILD_DIR)
 
 $(BUILD_DIR):
 	@mkdir -p $(BUILD_DIR)
-
-1029.out: $(BUILD_DIR)
-	g++ -std=c++11 -I../../include -o $(BUILD_DIR)/1029.out 1029.cpp
 
 run: 1029.out $(BUILD_DIR)
 	$(BUILD_DIR)/1029.out

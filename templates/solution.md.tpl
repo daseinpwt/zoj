@@ -1,6 +1,6 @@
 ---
 title  : 'ZOJ {PN}'
-author : daseinpwt
+author : by Dasein
 header-includes: |
     \usepackage{xcolor}
     \usepackage{amsthm}

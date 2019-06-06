@@ -2,7 +2,7 @@
 ## About ZOJ
 ZOJ is an online judge system maintained by Zhejiang University ACM/ICPC Team. It allows people to solve algorithm problems online.
 
-## daseinpwt's solutions and the solution framework
+## Dasein's solutions and the solution framework
 This repo contains the solutions for ZOJ problems written by daseinpwt. The solutions include the C++ source codes and the problem analyses in pdf format.
 
 A solution framework is developed to accelerate coding and documenting.
