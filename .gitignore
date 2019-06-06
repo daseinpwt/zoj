@@ -1,3 +1,4 @@
-.vscode
-*.out
-*_dist.cpp
+.vscode/*
+!.vscode/c_cpp_properties.json
+build
+check

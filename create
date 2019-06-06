@@ -4,8 +4,11 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 
+TPL_DIR="templates"
 mkdir src/$1
-cp cpp.tpl src/$1/$1.cpp
-sed "s/{PN}/$1/g" Makefile.tpl > src/$1/Makefile
-sed "s/{PN}/$1/g" solution.md.tpl > src/$1/solution.md
-cd src/$1
+cp ${TPL_DIR}/cpp.tpl src/$1/$1.cpp
+cp ${TPL_DIR}/make_data.py.tpl src/$1/make_data.py
+cp ${TPL_DIR}/std.cpp.tpl src/$1/std.cpp
+sed "s/{PN}/$1/g" ${TPL_DIR}/Makefile.tpl > src/$1/Makefile
+sed "s/{PN}/$1/g" ${TPL_DIR}/check.sh.tpl > src/$1/check.sh
+sed "s/{PN}/$1/g" ${TPL_DIR}/solution.md.tpl > src/$1/solution.md
