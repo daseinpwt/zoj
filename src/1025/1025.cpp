@@ -7,7 +7,7 @@ using namespace std;
 
 /* user-defined libraries */
 #include "../../include/util/common.h"
-#include "../../util/qsort.h"
+#include "../../include/util/qsort.h"
 
 /* below is the main program */
 #define MAXN 5010
