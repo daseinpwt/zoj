@@ -6,7 +6,7 @@ using namespace std;
 /* END:SYSLIB */
 
 /* user-defined libraries */
-#include "../../util/common.h"
+#include "../../include/util/common.h"
 
 /* below is the main program */
 #define MAXN 120
